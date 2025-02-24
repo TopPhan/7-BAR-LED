@@ -86,7 +86,7 @@
     Create a countdown timer or stopwatch.
     Expand to 4x 7-segment LEDs.
     Integrate sensors (e.g., temperature, light) and display their readings.
-    📸 Simulation Screenshot
+  
 
 📧 Contact
 
