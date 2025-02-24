@@ -1,6 +1,6 @@
 📟 Displaying Numbers on 7-Segment LED Using AVR
 
-    This is a small project I made to practice controlling a 7-segment LED using an AVR microcontroller (ATmega16/32). 
+    This is a small project I made to practice controlling a 7-segment LED using an AVR (ATmega16/32). 
     I used Proteus for simulation and wrote the code in C.
     The program displays the number 07 on two 7-segment LEDs using multiplexing.
 
@@ -40,7 +40,8 @@
 
     Display Function:
     void display(int a)
-    This function takes a number from 00–99, splits it into tens and units digits, and displays them using multiplexing. 
+    This function takes a number from 00–99, splits it into tens and units digits, 
+    Displays them using multiplexing. 
     Each LED is switched on and off alternately with delays, so they appear to be lit simultaneously.
 
     Main Loop:
