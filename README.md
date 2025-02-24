@@ -71,6 +71,7 @@
     
 📂 How to Compile and Run
 
+    Add the source.hex file to Proteus to run the program.
   
 📖 What I Learned
 
