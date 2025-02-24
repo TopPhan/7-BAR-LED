@@ -1,15 +1,18 @@
 📟 Displaying Numbers on 7-Segment LED Using AVR
+
     This is a small project I made to practice controlling a 7-segment LED using an AVR microcontroller (ATmega16/32). 
     I used Proteus for simulation and wrote the code in C.
     The program displays the number 07 on two 7-segment LEDs using multiplexing.
 
 ⚙️ Features
+
     Displays a two-digit number on 2x 7-segment LEDs.
     Uses multiplexing to control both LEDs with a shared data port.
     Written in C using basic AVR libraries.
     Simulated entirely in Proteus — no real hardware needed.
     
 🛠 Tools Used
+
     Microcontroller: ATmega16/32
     Language: C
     Libraries:
@@ -18,6 +21,7 @@
     Simulation Software: Proteus
     
 ⚡ Code Explanation
+
     Clock Configuration:
     #define F_CPU 8000000UL
     Sets the system clock to 8 MHz to ensure accurate delays.
@@ -46,6 +50,7 @@
     The loop constantly displays the number 07.
 
 🔌 Simulating in Proteus
+
     Preparation:
     Microcontroller: ATmega16 or ATmega32
     2x Common Anode 7-Segment LEDs
@@ -67,12 +72,14 @@
 
   
 📖 What I Learned
+
     How to control a 7-segment LED with an AVR microcontroller.
     Implementing multiplexing to control multiple LEDs using fewer I/O pins.
     Using Proteus for circuit simulation.
     Working with AVR libraries and writing embedded C code.
 
 🚀 Ideas for Future Improvements
+
     Add push buttons to increment or decrement the displayed number (00–99).
     Create a countdown timer or stopwatch.
     Expand to 4x 7-segment LEDs.
@@ -80,6 +87,7 @@
     📸 Simulation Screenshot
 
 📧 Contact
+
     Phan Hoàng Đỉnh – Fresher Embedded Developer
     📍 Ho Chi Minh City, Vietnam
     ✉️ topphanst@gmail.com
